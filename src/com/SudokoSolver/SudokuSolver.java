@@ -60,7 +60,6 @@ public class SudokuSolver implements IProblemSolver {
 
     public boolean isSafe(int row, int col, int num)
     {
-
 //        return !usedInRow(row,num) && !usedInCol(col,num) && !usedInBox(row,col,num);
 //         Row has the unique (row-clash)
         for (int d = 0; d < this.sudoko.getBoard().length; d++)
@@ -142,5 +141,4 @@ public class SudokuSolver implements IProblemSolver {
         }
         return false;
     }
-
 }

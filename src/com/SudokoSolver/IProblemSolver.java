@@ -5,5 +5,3 @@ public interface IProblemSolver {
     boolean solveSudoku();
     boolean isNumberSafeForBoard(int row, int col, int num);
 }
-
-
